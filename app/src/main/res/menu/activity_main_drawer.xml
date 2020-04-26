@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="Like us on Facebook" />
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/ic_website"
+            android:title="Visit our Website" />
+        <item
+            android:id="@+id/linkedin"
+            android:icon="@drawable/ic_linkedin"
+            android:title="Follow us on Linkedin" />
+        <item
+            android:id="@+id/google"
+            android:icon="@drawable/ic_youtube"
+            android:title="Subscribe to Youtube" />
+
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/ic_google_maps"
+            android:title="Google Maps" />
+
+    </group>
+
+    <item android:title="Developer">
+        <menu>
+            <item
+                android:id="@+id/dev"
+                android:icon="@drawable/webdevelopment"
+                android:title="Developed by LibTiff" />
+        </menu>
+    </item>
+
+</menu>
